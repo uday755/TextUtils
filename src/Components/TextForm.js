@@ -36,9 +36,9 @@ export default function TextForm(props) {
                 </div>
                 <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>Convert to Uppercase</button>
                 <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Convert to Lowercase</button>
-                <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Convert to Sentence Case</button>
-                <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Remove Extra Spaces</button>
-                <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Invert Content</button>
+                {/* <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Convert to Sentence Case</button> */}
+                {/* <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Remove Extra Spaces</button> */}
+                {/* <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Invert Content</button> */}
                 <button className="btn btn-primary mx-2 my-2" onClick={handleClearClick}>Clear Text</button>
             </div>
             <div className="container my-3" style={{color : props.mode === 'light'?'black':'white'}}>
