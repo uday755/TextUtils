@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
 import Alert from './Components/Alert';
+// import About from './Components/About';
 // import About from "./Components/About";
 // import {
 //   BrowserRouter as Router,
@@ -45,10 +46,11 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           {/* <Routes> */}
-            {/* <Route path='/about' element = {<About mode = {mode} />} /> */}
-            {/* <About mode = {mode} /> */}
-            {/* <Route path="/" element = {<TextForm showAlert={showAlert} heading="TextUtils - the best" mode={mode}/>}/> */}
-            <TextForm showAlert={showAlert} heading="TextUtils - the best" mode={mode}/>
+            {/* <Route path='/about' element={<About mode={mode} />} /> */}
+            {/* <About mode={mode} /> */}
+            {/* <Route path="/" element={<TextForm showAlert={showAlert} heading="TextUtils - the best" mode={mode} />} /> */}
+            <TextForm showAlert={showAlert} heading="TextUtils - the best" mode={mode} />
+            {/* <About /> */}
           {/* </Routes> */}
         </div>
       {/* </Router> */}
