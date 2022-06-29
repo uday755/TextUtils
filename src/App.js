@@ -16,13 +16,13 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setMode('dark');
-      console.log('Mode Changed to Dark Mode');
+      // console.log('Mode Changed to Dark Mode');
       document.body.style.backgroundColor = '#042743';
       showAlert('success', 'Mode Succesfully changed to dark mode');
       document.title = 'TextUtils - Dark Mode';
     } else {
       setMode('light');
-      console.log('Mode Changed to Light Mode');
+      // console.log('Mode Changed to Light Mode');
       document.body.style.backgroundColor = 'white';
       showAlert('success', 'Mode Succesfully changed to light mode');
       document.title = 'TextUtils - Light Mode';
